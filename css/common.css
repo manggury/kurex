@@ -1,0 +1,26 @@
+.sec {
+    padding: 100px 0;
+}
+
+.con {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.title p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 32px 0;
+}
