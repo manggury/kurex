@@ -224,18 +224,20 @@ h1 {
     font-size: 28px;
     font-weight: 600;
     border-bottom: 1px solid #f49c0f;
+    align-items: center;
+
 }
 
-.notice_wrap .itm h3::after {
-    content: "more";
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%);
-    font-size: 14px;
-    font-weight: 300;
-    cursor: pointer;
+.notice_wrap .itm h3 a {
+    color: #000;
+    transition: 0.5s;
+
 }
+
+.notice_wrap .itm h3 a:hover {
+    color: #bbb;
+}
+
 
 .notice_wrap .itm ul>li {
     margin: 0 0 14px 0;
